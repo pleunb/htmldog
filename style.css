@@ -3,11 +3,8 @@
     color: navy;
 } 
 
-   p {
-        color: red;
-    }
 
-    a {
-        color: blue;
-    }
-
+h1 {
+    color: #ffc;
+    background-color: #009;
+}
