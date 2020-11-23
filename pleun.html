@@ -18,9 +18,11 @@
 			<li> To my dog </li>
 		</ol>
 	</ul>
+	
 	<h2>Where to find the tutorial</h2>
-	<p><a href="http://www.htmldog.com">HTML Dog </a></p>
-	<img src="http://www.htmldog.com/badge1.gif" width="120" height="90" alt="HTML Dog">
+		<p><a href="http://www.htmldog.com">HTML Dog </a></p>
+		<img src="http://www.htmldog.com/badge1.gif" width="120" height="90" alt="HTML Dog">
+	
 	<table>
 		<tr>
 			<td>Row 1, cell 1</td>
@@ -43,5 +45,40 @@
 			<td>Row 4, cell 3</td>
 		</tr>
 	</table>
+	
+	<form action="processingscript.php" method="post">
+	</form>
+	
+	<textarea rows="5" cols="20">A big load of text</textarea>
+	
+	<select>
+    <option>Option 1</option>
+    <option>Option 2</option>
+    <option value="third option">Option 3</option>
+	</select>
+
+	<form action="contactus.php" method="post">
+
+    <p>Name:</p>
+    <p><input type="text" name="name" value="Your name"></p>
+
+    <p>Species:</p>
+    <p><input name="species"></p>
+    <!-- remember: 'type="text"' isn't actually necessary -->
+
+    <p>Comments: </p>
+    <p><textarea name="comments" rows="5" cols="20">Your comments</textarea></p>
+
+    <p>Are you:</p>
+    <p><input type="radio" name="areyou" value="male"> Male</p>
+    <p><input type="radio" name="areyou" value="female"> Female</p>
+    <p><input type="radio" name="areyou" value="gender is a social construct"> Gender is a social construct</p>
+    <p><input type="radio" name="areyou" value="prefer not to answer"> Prefer not to answer</p>
+
+    <p><input type="submit"></p>
+
+</form>
+
+</form>
 </body>
 </html>
