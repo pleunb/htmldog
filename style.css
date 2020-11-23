@@ -16,6 +16,9 @@ body {
 
 h1 {
     font-size: 2em;
+	background-color: #ccc;
+    margin: 20px;
+    padding: 40px;
 }
 
 h2 {
